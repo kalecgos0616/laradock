@@ -149,3 +149,7 @@ function fs() {
 		du $arg .[^.]* ./*;
 	fi;
 }
+
+#   XDebug CLI
+export XDEBUG_CONFIG="remote_host=192.168.1.7 idekey=XDEBUG"
+export PHP_IDE_CONFIG="serverName=localhost"
